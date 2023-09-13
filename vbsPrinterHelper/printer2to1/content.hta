@@ -1,0 +1,13 @@
+<title>请选择需要安装的驱动</title>
+<div id='text' style='text-align:center;'>哈哈虎</div><br/>
+<script>
+var fso=new ActiveXObject('Scripting.FileSystemObject');
+var StdOut = fso.GetStandardStream(1);
+function t(val){
+	StdOut.Write(val);
+	close();
+}
+</script>
+
+<input type="button" onclick="t(this.value)" value="呵呵">
+<input type="button" onclick="t(this.value)" value="哈哈">
