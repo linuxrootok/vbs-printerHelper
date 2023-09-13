@@ -1,2 +1,2 @@
 # vbs-printerHelper
-for friend 
+Just for friend 
